@@ -1,0 +1,151 @@
+### Step 2A
+Forrests-MacBook-Air:~ fsverellen$ pwd
+/Users/fsverellen
+
+### Step 2B
+fsverellen@Forrests-Air ~ % cd /Users/fsverellen/Desktop/
+fsverellen@Forrests-Air Desktop % pwd
+/Users/fsverellen/Desktop
+fsverellen@Forrests-Air Desktop % 
+
+### Step 2C
+fsverellen@Forrests-Air Desktop % cd unit1-git-practice
+fsverellen@Forrests-Air unit1-git-practice % 
+
+### Step 2D
+/Users/fsverellen/Desktop/unit1-git-practice/
+
+fsverellen@Forrests-Air ~ % cd /Users/fsverellen/Desktop/unit1-git-practice/
+fsverellen@Forrests-Air unit1-git-practice % 
+
+### Step 2E
+fsverellen@Forrests-Air unit1-git-practice % ls
+my-steps.txt
+
+### Step 2F
+my-steps.txt
+
+### Step 2G
+fsverellen@Forrests-Air unit1-git-practice % cd /
+
+### Step 2H
+fsverellen@Forrests-Air / % pwd
+/
+fsverellen@Forrests-Air / % 
+
+### Step 2I
+fsverellen@Forrests-Air / % ls
+Applications	Volumes		etc		sbin
+Library		bin		home		tmp
+System		cores		opt		usr
+Users		dev		private		var
+fsverellen@Forrests-Air / % 
+
+### Step 2J
+fsverellen@Forrests-Air / % cd ~
+fsverellen@Forrests-Air ~ % 
+
+### Step 2K
+fsverellen@Forrests-Air ~ % cd  /Users/fsverellen/Desktop/unit1-git-practice
+fsverellen@Forrests-Air unit1-git-practice % 
+
+
+### Step 3A
+fsverellen@Forrests-Air unit1-git-practice % mkdir veggies
+fsverellen@Forrests-Air unit1-git-practice % mkdir meats
+fsverellen@Forrests-Air unit1-git-practice % mkdir desserts
+fsverellen@Forrests-Air unit1-git-practice % ls
+desserts	meats		my-steps.txt	veggies
+fsverellen@Forrests-Air unit1-git-practice % 
+
+### Step 3B
+fsverellen@Forrests-Air unit1-git-practice % mv desserts sweets
+fsverellen@Forrests-Air unit1-git-practice % ls
+meats		my-steps.txt	sweets		veggies
+fsverellen@Forrests-Air unit1-git-practice % 
+
+### Step 3C
+fsverellen@Forrests-Air unit1-git-practice % mkdir proteins
+
+### Step 3D
+fsverellen@Forrests-Air unit1-git-practice % mv meats proteins
+fsverellen@Forrests-Air unit1-git-practice % ls
+my-steps.txt	proteins	sweets		veggies
+
+### Step 3E
+fsverellen@Forrests-Air unit1-git-practice % cd veggies
+fsverellen@Forrests-Air veggies % touch carrot.txt
+fsverellen@Forrests-Air veggies % touch pea.txt
+fsverellen@Forrests-Air veggies % ls
+carrot.txt	pea.txt
+fsverellen@Forrests-Air veggies % 
+
+### Step 3F
+fsverellen@Forrests-Air veggies % cd ..
+fsverellen@Forrests-Air unit1-git-practice % cd sweets
+fsverellen@Forrests-Air sweets % touch cookie.txt
+fsverellen@Forrests-Air sweets % ls
+cookie.txt
+fsverellen@Forrests-Air sweets % 
+
+### Step 3G
+fsverellen@Forrests-Air sweets % mv cookie.txt donut.txt
+fsverellen@Forrests-Air sweets % ls
+donut.txt
+
+### Step 3H
+fsverellen@Forrests-Air sweets % cd ..
+fsverellen@Forrests-Air unit1-git-practice % touch thing.txt
+ls%                                                                             fsverellen@Forrests-Air unit1-git-practice % ls
+my-steps.txt	proteins	sweets		thing.txt	veggies
+fsverellen@Forrests-Air unit1-git-practice % 
+
+### Step 3I
+fsverellen@Forrests-Air unit1-git-practice % cp thing.txt tofu.txt
+fsverellen@Forrests-Air unit1-git-practice % ls
+my-steps.txt	sweets		tofu.txt
+proteins	thing.txt	veggies
+
+### Step 3J
+fsverellen@Forrests-Air unit1-git-practice % mv tofu.txt proteins
+
+### Step 3K
+fsverellen@Forrests-Air unit1-git-practice % cp thing.txt crab.txt
+fsverellen@Forrests-Air unit1-git-practice % mv crab.txt proteins
+fsverellen@Forrests-Air unit1-git-practice % cd proteins
+fsverellen@Forrests-Air proteins % ls
+crab.txt	meats		tofu.txt
+fsverellen@Forrests-Air proteins % mv crab.txt meats
+fsverellen@Forrests-Air proteins % ls
+meats		tofu.txt
+
+### Step 3L
+fsverellen@Forrests-Air proteins % cd ..
+fsverellen@Forrests-Air unit1-git-practice % rm thing.txt
+fsverellen@Forrests-Air unit1-git-practice % ls
+my-steps.txt	proteins	sweets		veggies
+
+### Step 3M
+fsverellen@Forrests-Air unit1-git-practice % cp -r veggies plants
+
+### Step 3N
+fsverellen@Forrests-Air unit1-git-practice % mkdir drinks
+fsverellen@Forrests-Air unit1-git-practice % ls         
+drinks		plants		sweets
+my-steps.txt	proteins	veggies
+fsverellen@Forrests-Air unit1-git-practice % rm -r drinks
+fsverellen@Forrests-Air unit1-git-practice % ls
+my-steps.txt	plants		proteins	sweets		veggies
+
+
+### Step 4
+
+
+### Step 5
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
