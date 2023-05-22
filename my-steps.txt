@@ -177,7 +177,40 @@ fsverellen@Forrests-MacBook-Air unit1-git-practice %
 
 
 ### Step 6
+fsverellen@Forrests-MacBook-Air unit1-git-practice % touch menu.txt
+fsverellen@Forrests-MacBook-Air unit1-git-practice % ls
+menu.txt	plants		sweets
+my-steps.txt	proteins	veggies
+fsverellen@Forrests-MacBook-Air unit1-git-practice % git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   my-steps.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	menu.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+fsverellen@Forrests-MacBook-Air unit1-git-practice % git add .
+fsverellen@Forrests-MacBook-Air unit1-git-practice % git commit -m 'starting a menu'
+[main 331ae9f] starting a menu
+ 2 files changed, 33 insertions(+), 1 deletion(-)
+ create mode 100644 menu.txt
+fsverellen@Forrests-MacBook-Air unit1-git-practice % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 977 bytes | 977.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/shaggyfdoggg/Grand-Circus-Unit-1-Practice-Problem.git
+   ffde73c..331ae9f  main -> main
+fsverellen@Forrests-MacBook-Air unit1-git-practice % 
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
