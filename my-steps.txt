@@ -139,9 +139,41 @@ my-steps.txt	plants		proteins	sweets		veggies
 
 
 ### Step 4
-
+fsverellen@Forrests-MacBook-Air unit1-git-practice % git init
+Initialized empty Git repository in /Users/fsverellen/Desktop/unit1-git-practice/.git/
+fsverellen@Forrests-MacBook-Air unit1-git-practice % git add .
+fsverellen@Forrests-MacBook-Air unit1-git-practice % git commit -m 'first commit'
+[master (root-commit) ffde73c] first commit
+ 10 files changed, 151 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/.DS_Store
+ create mode 100644 proteins/meats/crab.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
 
 ### Step 5
+fsverellen@Forrests-MacBook-Air unit1-git-practice % git remote add origin https://github.com/shaggyfdoggg/Grand-Circus-Unit-1-Practice-Problem.git
+git branch -M main
+git push -u origin main
+fatal: remote origin already exists.
+Username for 'https://github.com': shaggyfdoggg
+Password for 'https://shaggyfdoggg@github.com': 
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (10/10), 1.63 KiB | 555.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/shaggyfdoggg/Grand-Circus-Unit-1-Practice-Problem.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+fsverellen@Forrests-MacBook-Air unit1-git-practice % 
 
 
 ### Step 6
